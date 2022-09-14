@@ -10,13 +10,16 @@
     <script>window.slotsSwipe = []; var gptadslots = []; var googletag = googletag || {}; googletag.cmd = googletag.cmd || [];</script>
 </head>
 <body>
-<as class="ads_strip-container ad-container">
+
+<img src="https://tpc.googlesyndication.com/simgad/4549913179302927462"/>
+
+<div class="ads_strip-container ad-container">
     <div id="Strip" style="margin: 0px auto 4px; display: none;"></div>
     <script id="ads-strip" type="text/javascript">
         window.addEventListener("load", function (event) {
             if (window.googletag && googletag.apiReady) {
                 googletag.cmd.push(function () {
-                    var mappingstrip = googletag.sizeMapping().addSize([1024, 768], []).addSize([980, 600], []).addSize([770, 300], [[320, 100], [320, 50], [300, 100], [300, 50]]).addSize([0, 0], [[320, 100], [320, 50], [300, 100], [300, 50]]).build();
+                    var mappingstrip = googletag.sizeMapping().addSize([1024, 768], [[320, 100], [320, 50], [300, 100], [300, 50]]).addSize([980, 600], [[320, 100], [320, 50], [300, 100], [300, 50]]).addSize([770, 300], [[320, 100], [320, 50], [300, 100], [300, 50]]).addSize([0, 0], [[320, 100], [320, 50], [300, 100], [300, 50]]).build();
                     gptadslots[9] = googletag.defineSlot('/422621568/larepublica.pe_Strip', [940, 40], 'Strip')?.defineSizeMapping(mappingstrip).addService(googletag.pubads());
 
 
@@ -37,7 +40,7 @@
             }
         });
     </script>
-</as    
+</div>   
 </body>
 </html>
 
